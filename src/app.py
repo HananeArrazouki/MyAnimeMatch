@@ -1,5 +1,5 @@
 import streamlit as st
-from recommend_anime_random_forest_ import recommend_anime_random_forest
+from recommend_anime_random_forest import recommend_anime_random_forest
 from recommend_anime_knn import recommend_anime_knn
 
 # Menú principal

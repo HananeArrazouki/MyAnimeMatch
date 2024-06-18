@@ -2,10 +2,36 @@ import streamlit as st
 import pandas as pd
 import re
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.neighbors import NearestNeighbors
 import joblib
 import numpy as np
+
+"""
+    Une múltiples archivos en uno solo.
+    
+    :param output_path: Ruta del archivo combinado
+    :param part_paths: Lista de rutas de las partes del archivo
+"""
+def combine_files(output_path, part_paths):
+    with open(output_path, 'wb') as output_file:
+        for part_path in part_paths:
+            with open(part_path, 'rb') as part_file:
+                output_file.write(part_file.read())
+
+def combine_model_parts():
+    part_files = [
+        'models/modelo_knn2.pkl.part0', 
+        'models/modelo_knn2.pkl.part1',
+        'models/modelo_knn2.pkl.part2',
+        'models/modelo_knn2.pkl.part3',
+        'models/modelo_knn2.pkl.part4',
+        'models/modelo_knn2.pkl.part5',
+        'models/modelo_knn2.pkl.part6',
+        'models/modelo_knn2.pkl.part7',
+    ]
+    combine_files('models/modelo_knn2.pkl', part_files)
+
+# Unir las partes del modelo al iniciar la aplicación
+combine_model_parts()
 
 # Cargar el modelo KNN desde el archivo .pkl
 modelo_knn = joblib.load("models/modelo_knn2.pkl")
