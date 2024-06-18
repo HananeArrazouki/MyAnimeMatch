@@ -1,14 +1,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import MinMaxScaler
-import numpy as np
-from sklearn.neighbors import KNeighborsClassifier, NearestNeighbors
-from textblob import TextBlob
-from sklearn.feature_extraction.text import CountVectorizer
 
 # Cargar el dataset
 data = pd.read_csv("models/scraping_animeList.csv")
