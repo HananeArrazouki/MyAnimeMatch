@@ -82,6 +82,7 @@ A continuación, se procede a limpiar los datos eliminando las líneas sin infor
 [Documentacíon de scikit-learn](https://scikit-learn.org/stable/modules/neighbors.html)
 
 [How to create a Streamlit Multi-Page Web App](https://www.youtube.com/watch?v=YClmpnpszq8)
+
 [KNN overview](https://morioh.com/a/dad083a07e63/how-to-build-a-knn-classification-model-from-scratch-and-visualize-it-using-streamlit)
 
 stackoverflow
