@@ -37,7 +37,7 @@ def recommend_anime_random_forest():
    # st.divider()
    st.markdown("")
 
-   if st.button("Find out"):
+   if st.button("Obtener Recomendaciones"):
       # Crear un DataFrame con las selecciones del usuario
       X = pd.DataFrame([[Type, Source, Rating]],
                               columns=['Type', 'Source', 'Rating'])
