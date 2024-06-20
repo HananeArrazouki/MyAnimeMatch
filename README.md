@@ -12,6 +12,7 @@ Al contestar una serie de preguntas en la pagina web (streamlit), la Web proporc
 Utilizando técnicas de web scraping, he podido extraer datos de los animes desde el sitio web https://myanimelist.net/
 
 Las bibliotecas utilizadas son las siguientes:
+
 ![alt text](image.png)
 
 Los datos de cada anime se obtienen seleccionando el ID correspondiente en el endpoint de la URL.
