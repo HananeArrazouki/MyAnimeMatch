@@ -64,7 +64,7 @@ A continuación, se procede a limpiar los datos eliminando las líneas sin infor
 
 ![alt text](image-2.png)
 
-## Para información
+## Información
 
 Para el análisis de sentimientos, primero se debe ejecutar el script 'nltk_download.py'.
 
