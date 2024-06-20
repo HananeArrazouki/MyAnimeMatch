@@ -64,6 +64,19 @@ A continuación, se procede a limpiar los datos eliminando las líneas sin infor
 
 ![alt text](image-2.png)
 
+## Para información
+
+Para el análisis de sentimientos, primero se debe ejecutar el script 'nltk_download.py'.
+
+![image](https://github.com/HananeArrazouki/MyAnimeMatch/assets/102030958/06538c74-ffc2-4730-993a-33de6d7ce08d)
+
+Debido a que el modelo 'modelo_knn2.pkl' tenía un tamaño superior a 300MB, fue necesario dividirlo en archivos más pequeños y luego unirlos.
+
+Para la división, se debe ejecutar el script 'split_model.py' con el siguiente comando: python ruta_del_archivo/split_model.py
+
+Para unir los archivos, hay dos métodos:
+
+![image](https://github.com/HananeArrazouki/MyAnimeMatch/assets/102030958/ff035055-51de-4019-8f69-b2efdd9eee8e)
 
 ## Presentación
 
