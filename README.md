@@ -1,5 +1,7 @@
 # MyAnimeMatch
 
+![logo](https://github.com/HananeArrazouki/MyAnimeMatch/assets/102030958/5bc1c0b1-a621-4ed5-a4a5-62300eb48885)
+
 Proyecto realizado por [Hanane Arrazouki](https://github.com/HananeArrazouki)
 
 ## Justificación y descripción del proyecto
