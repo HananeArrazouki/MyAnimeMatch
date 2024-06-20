@@ -5,11 +5,14 @@ from recommend_anime_sentiment import recommend_anime_sentiment
 
 # Menú principal
 def main():
-    menu = st.sidebar.selectbox("Seleccione una opción:", ["Recomendar Anime (Random Forest)", 
+    menu = st.sidebar.selectbox("Seleccione una opción:", ["Inicio",
+                                                           "Recomendar Anime (Random Forest)", 
                                                            "Recomendar Anime (KNN)",
                                                            "Recomendar Anime por Estado de Ánimo"])
 
-    if menu == "Recomendar Anime (Random Forest)":
+    if menu == "Inicio":
+        st.image("img/logo.png", use_column_width=True)
+    elif menu == "Recomendar Anime (Random Forest)":
         recommend_anime_random_forest()
     elif menu == "Recomendar Anime (KNN)":
         recommend_anime_knn()
